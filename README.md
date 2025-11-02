@@ -73,12 +73,20 @@ This tool demonstrates how modern NLP models can understand human language and e
 <img width="1215" height="667" alt="Image" src="https://github.com/user-attachments/assets/cbf5cc21-682d-49d5-945b-f70e17b89c73" />
 
 --
+🧠 Model Information
+
+Model: sshleifer/distilbart-cnn-12-6
+
+This is a distilled version of BART, optimized for efficient and high-quality text summarization.
+--
 ## 👨‍💻 Author
 
 **Shreyash Desai**  
 *Intern at CodTech IT Solutions*  
 📧 [sheyashsn.desai@gmail.com]  
 🔗 [GitHub Profile](https://github.com/<Shreyash Desai>)
+🔗 LinkedIn Profile
+
 
 ---
 
@@ -87,6 +95,7 @@ This tool demonstrates how modern NLP models can understand human language and e
 I would like to thank **CodTech IT Solutions** and my mentor **Neela Santosh** for providing this opportunity and guidance during the internship.
 
 ---
+
 
 
 
