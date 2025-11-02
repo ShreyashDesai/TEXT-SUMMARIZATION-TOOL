@@ -68,7 +68,9 @@ This tool demonstrates how modern NLP models can understand human language and e
 > AI enhances automation, innovation, and decision-making across industries.
 
 ---
+<img width="1215" height="667" alt="Image" src="https://github.com/user-attachments/assets/cbf5cc21-682d-49d5-945b-f70e17b89c73" />
 
+--
 ## 👨‍💻 Author
 
 **Shreyash Desai**  
@@ -83,5 +85,6 @@ This tool demonstrates how modern NLP models can understand human language and e
 I would like to thank **CodTech IT Solutions** and my mentor **Neela Santosh** for providing this opportunity and guidance during the internship.
 
 ---
+
 
 
