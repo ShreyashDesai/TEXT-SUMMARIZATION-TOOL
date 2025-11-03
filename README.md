@@ -43,8 +43,8 @@ This tool demonstrates how modern NLP models can understand human language and e
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<Batman1as>/Text-Summarize-Tool.git
-   cd Text-Summarize-Tool
+   git clone https://github.com/Batman1as/TEXT-SUMMARIZATION-TOOL.git
+   cd TEXT-SUMMARIZATION-TOOL
    ```
 
 2. Install dependencies:
@@ -96,6 +96,7 @@ This is a distilled version of BART, optimized for efficient and high-quality te
 I would like to thank **CodTech IT Solutions** and my mentor **Neela Santosh** for providing this opportunity and guidance during the internship.
 
 ---
+
 
 
 
