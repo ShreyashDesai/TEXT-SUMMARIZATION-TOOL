@@ -40,17 +40,21 @@ This tool demonstrates how modern NLP models can understand human language and e
 ---
 
 ## 💻 How to Run
+--
 
-🪜 Step 1️⃣ — Install Git
+🪜 Setup Instructions
+✅ Step 1: Install Git (64-bit)
 
-If you don’t already have Git installed, download it here:
+If Git isn’t installed, download the 64-bit version here:
 👉 https://git-scm.com/downloads
 
-During setup, check “Add Git to PATH” ✅
+During setup, ensure ✅ “Add Git to PATH” is checked.
 
-After installation, verify:
+To verify installation:
 
 git --version
+
+--
 
 1. Clone this repository:
    ```bash
@@ -108,6 +112,7 @@ This is a distilled version of BART, optimized for efficient and high-quality te
 I would like to thank **CodTech IT Solutions** and my mentor **Neela Santosh** for providing this opportunity and guidance during the internship.
 
 ---
+
 
 
 
