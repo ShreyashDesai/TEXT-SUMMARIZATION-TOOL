@@ -41,11 +41,23 @@ This tool demonstrates how modern NLP models can understand human language and e
 
 ## 💻 How to Run
 
+🪜 Step 1️⃣ — Install Git
+
+If you don’t already have Git installed, download it here:
+👉 https://git-scm.com/downloads
+
+During setup, check “Add Git to PATH” ✅
+
+After installation, verify:
+
+git --version
+
 1. Clone this repository:
    ```bash
    git clone https://github.com/ShreyashDesai/TEXT-SUMMARIZATION-TOOL.git
    cd TEXT-SUMMARIZATION-TOOL
    ```
+--
 
 2. Install dependencies:
    ```bash
@@ -96,6 +108,7 @@ This is a distilled version of BART, optimized for efficient and high-quality te
 I would like to thank **CodTech IT Solutions** and my mentor **Neela Santosh** for providing this opportunity and guidance during the internship.
 
 ---
+
 
 
 
