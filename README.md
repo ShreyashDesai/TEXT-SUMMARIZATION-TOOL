@@ -68,6 +68,83 @@ During installation, CHECK this box ✅ at the bottom:
 
 Add Python to PATH
 
+🧰 If Python Isn’t Working Even After Installing
+
+If you installed Python but the command
+
+python --version
+
+
+still says “not recognized”, follow these steps 👇
+
+🪜 Step A — Verify Python Installation Path
+
+Open File Explorer and go to:
+
+C:\Users\<YourUsername>\AppData\Local\Programs\Python\
+
+
+You’ll see a folder like:
+
+Python312
+
+
+(the number depends on your version)
+
+Inside it, open the Scripts folder.
+Example:
+
+C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python312\Scripts
+
+🪜 Step B — Add Python to PATH (Manually)
+
+Press Win + R, type:
+
+sysdm.cpl
+
+
+and hit Enter.
+
+Go to Advanced → Environment Variables
+
+Under System variables, find and select Path → click Edit
+
+Click New and paste both paths:
+
+C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python312\
+C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python312\Scripts\
+
+
+Click OK on all dialogs.
+
+🪜 Step C — Verify Everything
+
+Open a new PowerShell or CMD window and run:
+
+python --version
+pip --version
+
+
+If you see both versions appear (like Python 3.12.2 and pip 25.x),
+you’re all set ✅
+
+🪜 Step D — Upgrade pip (optional but recommended)
+python -m pip install --upgrade pip
+
+⚡ Pro Tip:
+
+If someone still faces problems, they can use the Microsoft Store version of Python:
+
+Open the Microsoft Store
+
+Search for Python 3.12
+
+Click Install
+It auto-configures PATH automatically.
+
+--
+
+
 
 Finish setup, then restart your terminal.
 
@@ -135,6 +212,7 @@ This is a distilled version of BART, optimized for efficient and high-quality te
 I would like to thank **CodTech IT Solutions** and my mentor **Neela Santosh** for providing this opportunity and guidance during the internship.
 
 ---
+
 
 
 
