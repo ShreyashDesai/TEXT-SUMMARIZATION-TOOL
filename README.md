@@ -2,10 +2,8 @@
 
 **Company:** CodTech IT Solutions  
 **Name:** Shreyash Nhanu Desai  
-**Intern ID:** CT04DR1291 
-
-**Domain:** Artificial Intelligence 
-
+**Intern ID:** CT04DR1291  
+**Domain:** Artificial Intelligence  
 **Duration:** 4 Weeks  
 **Mentor:** Neela Santosh  
 
@@ -15,217 +13,172 @@
 
 The **Text Summarize Tool** is an AI-based project that uses **Natural Language Processing (NLP)** to automatically generate concise summaries from lengthy articles or text documents.  
 
-This tool demonstrates how modern NLP models can understand human language and extract meaningful information efficiently — saving time and improving productivity.
+This tool showcases how transformer models can understand language context and extract meaningful insights — helping users save time and enhance productivity.  
 
 ---
 
 ## 🚀 Features
 
-- 🧩 Summarizes long paragraphs into concise, readable text  
-- ⚙️ Built using state-of-the-art **transformer models**  
-- 💬 Simple command-line interface for input and output  
-- 🔍 Supports multiple languages (with Hugging Face multilingual models)  
-- 💾 Lightweight and easily deployable  
+- 🧩 Summarizes long paragraphs into clear, short text  
+- ⚙️ Uses cutting-edge **transformer models** for accuracy  
+- 💬 Simple **command-line interface (CLI)** for easy use  
+- 🌍 Supports **multiple languages** (via Hugging Face multilingual models)  
+- 💾 Lightweight and portable  
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Programming Language:** Python  
-- **Libraries:**  
-  - `transformers` – for AI summarization model  
-  - `torch` – for deep learning backend  
-  - `nltk` – for text preprocessing (optional)  
+| Category | Technology |
+|-----------|-------------|
+| **Language** | Python |
+| **Libraries** | `transformers`, `torch`, `nltk` |
+| **Model** | `sshleifer/distilbart-cnn-12-6` |
 
 ---
 
 ## 💻 How to Run
---
 
-🪜 Setup Instructions
---
+### 🪜 Step 1 — Install Git (64-bit)
 
-✅ Step 1: Install Git (64-bit)
-
-If Git isn’t installed, download the 64-bit version here:
+If Git isn’t installed, download the **64-bit** version from:  
 👉 https://git-scm.com/downloads
 
-During setup, ensure ✅ “Add Git to PATH” is checked.
+During setup, **check** ✅ “Add Git to PATH”.
 
-To verify installation:
-
+To verify installation:  
+```bash
 git --version
+```
 
---
+---
 
-🪜 Step 2: Install or Repair Python
+### 🪜 Step 2 — Install or Repair Python
 
-Go to 👉 https://www.python.org/downloads/
+Download and install Python (64-bit):  
+👉 https://www.python.org/downloads/
 
-Download the latest Python (64-bit).
-
-During installation, CHECK this box ✅ at the bottom:
-
+✅ **Important:** During setup, check the box:  
+```
 Add Python to PATH
+```
 
-🧰 If Python Isn’t Working Even After Installing
+---
 
-If you installed Python but the command
+### 🧰 If Python Isn’t Working Even After Installing
 
-python --version
+If `python --version` shows *“not recognized”*, follow these fixes 👇  
 
-
-still says “not recognized”, follow these steps 👇
-
-🪜 Step A — Verify Python Installation Path
-
-Open File Explorer and go to:
-
+#### 🪜 A. Verify Python Path  
+Check your installation folder:  
+```
 C:\Users\<YourUsername>\AppData\Local\Programs\Python\
+```
 
-
-You’ll see a folder like:
-
-Python312
-
-
-(the number depends on your version)
-
-Inside it, open the Scripts folder.
-Example:
-
+Inside, open the `Scripts` folder. Example:  
+```
 C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python312\Scripts
+```
 
-🪜 Step B — Add Python to PATH (Manually)
+---
 
-Press Win + R, type:
+#### 🪜 B. Add Python to PATH (Manually)
 
-sysdm.cpl
+1. Press **Win + R**, type `sysdm.cpl`, and press Enter.  
+2. Go to **Advanced → Environment Variables**  
+3. Under **System variables**, select `Path` → click **Edit**  
+4. Click **New** and paste both:  
+   ```
+   C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python312\
+   C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python312\Scripts\
+   ```
+5. Click **OK** on all dialogs.  
 
+---
 
-and hit Enter.
-
-Go to Advanced → Environment Variables
-
-Under System variables, find and select Path → click Edit
-
-Click New and paste both paths:
-
-C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python312\
-C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python312\Scripts\
-
-
-Click OK on all dialogs.
-
-🪜 Step C — Verify Everything
-
-Open a new PowerShell or CMD window and run:
-
+#### 🪜 C. Verify Setup  
+Open a new CMD or PowerShell window and run:  
+```bash
 python --version
 pip --version
+```
+If both return versions (e.g., `Python 3.12.2` and `pip 25.x`), you're good ✅  
 
-
-If you see both versions appear (like Python 3.12.2 and pip 25.x),
-you’re all set ✅
-
-🪜 Step D — Upgrade pip (optional but recommended)
+#### 🪜 D. Upgrade pip (optional)  
+```bash
 python -m pip install --upgrade pip
+```
 
-⚡ Pro Tip:
+💡 **Pro Tip:** If problems continue, install Python from the **Microsoft Store** (it sets PATH automatically).
 
-If someone still faces problems, they can use the Microsoft Store version of Python:
+---
 
-Open the Microsoft Store
+### 🪜 Step 3 — Clone the Repository
 
-Search for Python 3.12
+```bash
+git clone https://github.com/ShreyashDesai/TEXT-SUMMARIZATION-TOOL.git
+cd TEXT-SUMMARIZATION-TOOL
+```
 
-Click Install
-It auto-configures PATH automatically.
+---
 
---
+### 🪜 Step 4 — Install Dependencies
 
+```bash
+pip install -r requirements.txt
+```
 
+---
 
-Finish setup, then restart your terminal.
+### 🪜 Step 5 — Run the Program
 
-🪜 Step 3: Verify pip
+```bash
+python text_summarize_tool.py
+```
 
-Run:
-
-pip --version
-
---
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/ShreyashDesai/TEXT-SUMMARIZATION-TOOL.git
-   cd TEXT-SUMMARIZATION-TOOL
-   ```
---
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the script:
-   ```bash
-   python text_summarize_tool.py
-   ```
-
-4. Enter any text or article when prompted — the tool will generate a concise AI summary.
+Enter any paragraph or article — the tool will automatically generate a summarized version.
 
 ---
 
 ## 🧩 Example Output
 
-**Input:**
+**Input:**  
 > Artificial Intelligence (AI) is transforming industries by automating complex tasks, improving decision-making, and driving innovation...
 
-**Summary:**
+**Summary:**  
 > AI enhances automation, innovation, and decision-making across industries.
 
 ---
-<img width="1215" height="667" alt="Image" src="https://github.com/user-attachments/assets/cbf5cc21-682d-49d5-945b-f70e17b89c73" />
 
---
-🧠 Model Information
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cbf5cc21-682d-49d5-945b-f70e17b89c73" width="80%" alt="App Screenshot"/>
+</p>
 
-Model: sshleifer/distilbart-cnn-12-6
+---
 
-This is a distilled version of BART, optimized for efficient and high-quality text summarization.
---
+## 🧠 Model Information
+
+**Model Used:** `sshleifer/distilbart-cnn-12-6`  
+A distilled version of BART optimized for fast and high-quality text summarization.
+
+---
+
 ## 👨‍💻 Author
 
-**Shreyash Desai**  
+**Shreyash Nhanu Desai**  
 *Intern at CodTech IT Solutions*  
-📧 [sheyashsn.desai@gmail.com]  
-🔗 [GitHub Profile](https://github.com/<Shreyash Desai>)
 
-🔗 [Connect with me on LinkedIn](https://www.linkedin.com/in/shreyash-desai-a13730384/)
-
+📧 **Email:** sheyashsn.desai@gmail.com  
+🔗 **GitHub:** https://github.com/ShreyashDesai  
+🔗 **LinkedIn:** https://www.linkedin.com/in/shreyash-desai-a13730384/  
 
 ---
 
 ## 🏁 Acknowledgements
 
-I would like to thank **CodTech IT Solutions** and my mentor **Neela Santosh** for providing this opportunity and guidance during the internship.
+I sincerely thank **CodTech IT Solutions** and my mentor **Neela Santosh** for their valuable guidance and support throughout this internship.  
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+✅ **Ready to use!**  
+Clone, install, and summarize any text instantly.  
