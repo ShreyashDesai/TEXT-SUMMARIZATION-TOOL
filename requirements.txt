@@ -1,8 +1,2 @@
+transformers==4.46.1
 torch
-torchvision
-torchaudio
-numpy
-pandas
-matplotlib
-scikit-learn
-tqdm
